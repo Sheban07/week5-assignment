@@ -1,4 +1,5 @@
-# Assignment 1
+# Assignment 1: Design Your Own Class
+
 # Base Class
 class Device:
     def __init__(self, brand, model):
@@ -39,9 +40,7 @@ print(phone1.get_storage())
 phone1.set_storage(512)
 print(phone1.get_storage())
 
-
-# Activity 2: Polymorphism Challenge!
-
+# Activity 2: Polymorphism Challenge
 class Animal:
     def move(self):
         pass  # To be overridden by child classes
@@ -63,5 +62,4 @@ animals = [Dog(), Bird(), Fish()]
 
 for animal in animals:
     print(animal.move())
-
 
